@@ -1,3 +1,3 @@
-# shahanmemon.com
-Source code of my personal website: shahanmemon.com
+# krishna99.github.io
+Source code of my personal website
 
