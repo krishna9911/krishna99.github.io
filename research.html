@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.7/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- <base href=""> --> 
+    <title>Krishna Yadav</title>
+    <style>
+        body {
+            margin-top: 20px;
+            margin-bottom: 30px;
+            font-family: sans-serif;
+            font-weight: lighter;
+        }
+
+        #head2 {
+            /* font-size: 24pt; */
+            color: darkblue;
+            font-family: cursive;
+        }
+
+        a {
+            color: black;
+            border-bottom: 1px dotted black;
+        }
+
+        a:hover,
+        a:active {
+            color: #DB522F;
+            text-decoration: none;
+        }
+
+        h1 a {
+            color: #6B747C;
+            border: none;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            border-bottom: 2px solid;
+        }
+
+        h3 {
+            font-size: 1.2em;
+            color: #000000;
+        }
+
+        h4 {
+            font-size: 1em;
+            font-family: sans-serif;
+            font-weight: lighter;
+            color: #000000;
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+
+        .strong {
+            color: #DB522F;
+        }
+
+        @media (max-width: 767.98px) {
+            header {
+                text-align: center;
+            }
+        }
+
+        ul.social-icons {
+            font-size: 1rem;
+            margin-top: 24px;
+            margin-bottom: 0;
+        }
+
+        ul.social-icons li::before {
+            content: '[';
+        }
+
+        ul.social-icons li::after {
+            content: ']';
+        }
+
+        ul.social-icons li a {
+            border: none;
+        }
+
+        img.portrait {
+            max-width: 100%;
+        }
+
+        @media (max-width: 767.98px) {
+            img.portrait {
+                display: block;
+                max-width: 300px;
+                margin: auto;
+            }
+        }
+
+        .annotation {
+            margin-top: -0.5em;
+            margin-bottom: 0.5em;
+            font-size: 12px;
+            line-height: 12px;
+        }
+
+        .taxonomy img {
+            max-width: 100%;
+            border:1px solid gray;
+        }
+
+        div.research-project {
+            font-size: 14px;
+            margin-bottom: 1.5rem;
+        }
+
+        div.research-project-publication {
+            font-size: 14px;
+            margin-bottom: 1.5rem;
+        }
+        
+        div.research-project-publication video {
+            max-width: 100%;
+            margin-bottom: 0.5rem;
+        }
+
+        div.research-project-publication p {
+            margin-bottom: 0.3rem;
+        }
+
+        div.line-of-research {
+            background-color: #F0F0F0;
+        }
+
+        div.research-project video {
+            max-width: 100%;
+            margin-bottom: 0.5rem;
+        }
+
+        div.research-project p {
+            margin-bottom: 0.3rem;
+        }
+
+        .news {
+            font-size: 15px;
+            margin-bottom: 0px;
+        }
+
+        #news-more {
+            display: none;
+        }
+
+        .tweets {
+            overflow: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .info {
+            border-style: none;
+            color: #BF9270;
+        }
+
+        hr.dash {
+            border-top: 1px dashed #bbbbbb;
+            margin-bottom: 15px;
+            margin-top: 15px;
+        }
+
+        .switch {
+            position: relative;
+            display: block;
+            width: 32px;
+            height: 18px;
+            float: left;
+			top: 3px;
+        }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 3px;
+            right: 0;
+            bottom: -3px;
+            left: 0;
+            background-color: #ccc;
+            transition: 0.5s;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 12px;
+            width: 12px;
+            left: 3px;
+            bottom: 3px;
+            background-color: white;
+            transition: 0.5s;
+        }
+
+        .active .slider {
+            background-color: #DB522F;
+        }
+
+        .active .slider:before {
+            transform: translateX(14px);
+        }
+		
+		.slider.round {
+		  border-radius: 34px;
+		}
+
+		.slider.round:before {
+		  border-radius: 50%;
+		}
+
+        .header-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .links-container {
+            padding: 0%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+        }
+    </style>
+	
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-PFGW5C3');</script>
+	<!-- End Google Tag Manager -->
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-48610112-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-48610112-3');
+    </script>
+
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MD42NTJYL0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MD42NTJYL0');
+</script>
+
+<body>
+	
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PFGW5C3"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <header class="container">
+        <div class="header-container">
+            <h1 class="float-md-left mb-0">
+                <b href=".">Krishna Yadav</b>
+            </h1>
+            <div class="links-container">
+                <div class="left-links-container">
+                    <li class="list-inline-item"><a href="index.html">About</a></li>
+                    <li class="list-inline-item"><a href="publications.html">Publications</a></li>
+                    <li class="list-inline-item"><a href="research.html">Research</a></li>
+                    <li class="list-inline-item"><a href="blog.html">Blog</a></li>
+                    <li class="list-inline-item"><a href="cv.html">CV</a></li>
+                </div>
+                <div class="list-inline float-md-right social-icons">
+                    <li class="list-inline-item"><a href="https://scholar.google.com/citations?user=y6-LtiIAAAAJ&hl=en"><i class="ai ai-google-scholar"></i> Scholar</a></li>
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/krishna-yadav-434324192//"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                    <li class="list-inline-item"><a href="https://github.com/cryptogeekk"><i class="fab fa-github"></i> Github</a></li>
+                    <li class="list-inline-item"><a class="krishna.nitkkr1@gmail.com"><i class="far fa-envelope"></i> Email</a></li>
+                </div>
+            </div>
+        </div>
+        
+        <div class="clearfix"></div>
+        <hr>
+    </header>
+
+    <div class="container">
+        <div class="row mb-3">
+            <div class="col-xl-8 col-lg-9 col-md-8">
+
+                <h2>
+                    Research Interest
+                </h2>
+
+                <p><b>Machine Learning in CyberSecurity:</b> I am interested in developing unsupervised models to automate intrusion detection. 
+                    I am also interested in building more optimized federated learning models that can update novel intrusions in real time to their peer clients
+                     and alleviate the privacy issue that comes with analyzing network logs of devices. 
+                     Recently, I have also been investing an ample amount of time in understanding to create cyber-attacks with generative models that mimic the pattern of the original cyber-attacks, 
+                     evading state-of-the-art deep learning-based IDS.
+
+                     <br>
+                     <br>
+
+                    <b>Security and Privacy of Machine Learning:</b> I am interested in analyzing machine learning models from an adversarial lens, 
+                    developing possible attacks and approach to defend them. These attacks are but not limited to Data Reconstruction, Gradient Poisoning, and Data poisoning.
+                     My additional interest also lies in Federated Machine Learning.
+                    
+                     <br>
+                     <br>
+
+                    <b>My research story:</b> I started my research journey in the second year of my college, where I published my first paper. 
+                    Since then, I have been actively involved in research. Most of my research papers are an outcome of independent research with very little supervision from a professor. 
+                    I believe that self-motivation, persistence, and a strong desire for scientific contribution are key factors to succeed in research.
+                    As a part of my research journey, I have been fortunate to mentor various students on research. Some of them are:
+                    <br>
+                    <br>
+                    1. Aarushi Sethi: NIT Kurukshetra -> Research Intern at NTU Singapore -> Grad student at UT Dallas.
+                    <br>
+                    2. Himashree Deka: NIT Kurukshetra -> PhD at IIT Guwahati.
+                    <br>
+                    3. Mavneet Kaur: Grad student at Stony Brook University
+                    <br>
+                    4. Pranjal Bhardwaj
+                    
+                    
+                    </p>
+
+
+
+                
+        
+        <!-- <div class="row taxonomy">
+            <div class="offset-xl-3 col-lg-8 mb-3">
+                <li class="list-inline-item"><a href="https://academictree.org/education/tree.php?pid=894838"><i class="bi-tree"></i> My Academic Tree</a></li>
+            </div>
+            <div class="col-lg-8 mb-3">
+                <a href="https://academictree.org/education/tree.php?pid=894838">
+                    <img src="/image/mytreewhite.png" alt="a tree diagram showing my academic advisors, their advisors, and so on">
+                </a>
+            </div>
+        </div> -->
+
+        <div class="row">
+            <!-- left column -->
+            <!-- <div class="col-lg-8 mb-2"> -->
+                <!-- <h2>
+                    Ongoing Research
+                </h2>
+
+                <div class="research-projects">
+					
+					
+                <div class="row research-project" data-sort="2020-05-01">
+                    <div class="col-md-4">
+                        <video loop muted playsinline poster="/research/USChina/brain.jpeg"></video>
+                        <video loop muted playsinline poster="/research/USChina/matching.png"></video>
+                        </video>
+                    </div>
+
+                    <div class="col-md-8">
+                        <h6>
+							China and the U.S. produce more impactful AI research when collaborating together
+                        </h6>
+                        <p class="text-muted">
+                            <a href="https://nyuad.nyu.edu/en/academics/divisions/social-science/faculty/bedoor-alshebli.html">Bedoor AlShebli*</a>,
+                            <a href="." style="color:#FF00FF;">Shahan Ali Memon</a>,
+                            <a href="https://sociology.uchicago.edu/directory/james-evans">James A. Evans</a>,
+                            <a href="https://nyuad.nyu.edu/en/academics/divisions/science/faculty/talal-rahwan.html">Talal Rahwan*</a>
+                            <br />
+                            <i class="fas fa-medal"></i> Accepted for presentation at ICSSI (2023)
+                            <br />
+                            <i class="fas fa-medal"></i> Accepted as a poster at IC2S2 (2023)
+                            <br />
+                            <span style="font-style:italic;">Under Review</span>&nbsp;
+                            <br />
+                            <a class="info" href="https://docs.google.com/presentation/d/1gy1aB_v9h8G-Y4TPBKNBcabTskghzqRJ/edit?usp=sharing&ouid=115025413992809978343&rtpof=true&sd=true"><i class="fas fa-file-powerpoint" aria-hidden="true"></i> Slides (ICSSI)</a>
+                            <br />
+                            <a class="info" href="https://arxiv.org/abs/2304.11123"><i class="far fa-file-pdf" aria-hidden="true"></i> Preprint</a>
+                        </p>
+                        
+                        <p>
+                            Fierce geopolitical tensions between China and the U.S. have led to policies that discourage cross-border collaboration and migration in the field of Artificial Intelligence. Despite this, we analyze a dataset of 363,000 AI scientists and 5,400,000 papers showing that China and the U.S. have been leading the field since 2000 in terms of impact, novelty, productivity, and workforce. Significant bidirectional migration is observed with both countries being primary destinations for one another. Collaborations between the two countries while increasing still represent a small fraction of their total productivity. Yet, we show that the two countries produce more impactful research when collaborating together, suggesting that promoting cross-border collaboration and migration could benefit the field of AI.
+                        </p>
+                    </div>
+					
+					<div class="col-md-12"> 
+						<hr class="dash">
+					</div>
+                </div>
+
+                <div class="row research-project" data-sort="2020-05-01">
+                    <div class="col-md-4">
+                        <video loop muted playsinline poster="/research/Retraction/thumbnail2.png"></video>
+                        <video loop muted playsinline poster="/research/Retraction/thumbnail.png">
+                        </video>
+                    </div>
+
+                    <div class="col-md-8">
+                        <h6>
+							Characterizing the effect of retractions on careers of scientists
+                        </h6>
+                        <p class="text-muted">
+                            <a href="." style="color:#FF00FF;">Shahan Ali Memon</a>,
+                            <a href="https://nyuad.nyu.edu/en/academics/divisions/social-science/faculty/kinga-makovi.html">Kinga Makovi*</a>,
+                            <a href="https://nyuad.nyu.edu/en/academics/divisions/social-science/faculty/bedoor-alshebli.html">Bedoor AlShebli*</a>
+                            <br />
+                            <i class="fas fa-medal"></i> Accepted for presentation at ICSSI (2023) <span style="color: red; font-weight: bold;">**Best Paper Award**</span>
+                            <br />
+                            <i class="fas fa-medal"></i> Accepted for presentation at Frontiers of Network Science Workshop (2022 & 2023)
+                            <br />
+                            <i class="fas fa-medal"></i> Accepted for presentation at IC2S2 (2022)
+                            <br />
+                            <span style="font-style:italic;">Under Review</span>&nbsp; 
+                            <br />
+                            <a class="info" href="https://tinyurl.com/ic2s2-science"><i class="fas fa-video" aria-hidden="true"></i> Recording (IC2S2)</a>
+                            <a class="info" href="https://docs.google.com/presentation/d/1Y8uL0_7ruo-0jXGux8aojlSrYBRauImpdX8Z5Z-OWBk/edit?usp=sharing"><i class="fas fa-file-powerpoint" aria-hidden="true"></i> Slides (IC2S2)</a>
+                            <a class="info" href="https://docs.google.com/presentation/d/1FIQ3tFFr1MW64oPql5ijtKgl8L8PUFmlT0ck7a4eCK8/edit?usp=sharing"><i class="fas fa-file-powerpoint" aria-hidden="true"></i> Slides (ICSSI)</a>
+                            <br />
+                            <a class="info" href="https://www.researchgate.net/publication/371493126_Characterizing_the_effect_of_retractions_on_scientific_careers"><i class="far fa-file-pdf" aria-hidden="true"></i> Preprint</a>
+                        </p>
+                        <!-- <p class="strong">
+                            <i class="fas fa-trophy"></i> Best Paper Award
+                        </p> -->
+                        
+                        <!-- <p>
+                            Retracting academic papers is a fundamental tool for social control in the academy, and in the vast majority of cases happen only under the most extreme circumstances: when the science behind papers, or the integrity of authors come into question. While retractions do not completely erase papers from the academic record, they can have important implications for retracted scientists and their careers.
+                            In this project, we aim to uncover whether retracted authors (RQ1) retain fewer collaborators, (RQ2) gain fewer new collaborators, (RQ3) close fewer triads, and (RQ4) get penalized for public retractions, than their matched non-retracted scientists.
+                        </p> -->
+                    </div>
+					
+					<!-- <div class="col-md-12"> 
+						<hr class="dash">
+					</div> -->
+                </div>
+
+            </div> 
+
+
+
+    </div>
+
+
+</body>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4/dist/jquery.min.js"></script>
+<script>
+    $('#toggle-more-news').click(function () {
+        $('#news-more').slideToggle();
+        $('#news-more').is(':visible') ? $(this).text('< Hide') : $(this).text('More >');
+        return false;
+    });
+
+    $(window).on('scroll', function () {
+        $('video').each(function () {
+            var video = this;
+            var rect = video.getBoundingClientRect();
+
+            if (
+                rect.top >= 0 && rect.left >= 0 &&
+                rect.bottom <= $(window).height() &&
+                rect.right <= $(window).width()
+            ) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        });
+    });
+
+    // var researchProjects = $('.research-projects').html();
+
+    // var researchProjectsSorted = $('div.research-project').sort(function (a, b) {
+    //     var contentA = $(a).attr('data-sort');
+    //     var contentB = $(b).attr('data-sort');
+    //     return (contentA < contentB) ? 1 : (contentA > contentB) ? -1 : 0;
+    // });
+
+    // $('.sort-by-date').click(function () {
+    //     $(this).toggleClass('active');
+    //     if ($(this).hasClass('active')) {
+    //         $('.research-projects').html(researchProjects);
+    //     } else {
+    //         $('.research-projects').html(researchProjectsSorted);
+    //     }
+    // });
+	
+	// $('.research-projects').html(researchProjectsSorted);
+
+    document.querySelectorAll('.email-anchor').forEach(function(a) {
+        a.href = 'mailto:' + ['shahan', 'nyu.edu'].join('@');
+    });
+</script>
+
+</html>
